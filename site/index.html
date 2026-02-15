@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eduardo</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Eduardo</h1>
+        <nav> 
+            <ul>
+                <li><a href="#sobre">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section id="sobre">
+        <h2>Sobre mi</h2>
+        <img src="https://i.pinimg.com/736x/c4/f1/d7/c4f1d711340ff02ea3f799cc91d7a114.jpg" alt="imagen de perfil" title="Imagen de perfils">
+        <article>
+            <p>Hola mi nombre es Eduardo Ventura, estoy comenzando en el mundo del desarrollo web</p>
+        </article>
+        <aside>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </aside>
+
+    </section>
+    <section id="proyecto">
+        <h2>Proyectos</h2>
+        <article>
+            <h3>Portafolio</h3>
+            <p>
+                Este fue el primer sitio web que estoy desarrollando estudiando con Senai
+            </p>
+        </article>
+    </section>
+
+    <section id="habilidades">
+        <h2> Habilidades e tecnologias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Habilidades</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>iniciante</td>
+                    <td>Capaz de construir estructuras de paginas webs semanticas y responsivas</td>
+
+                </tr>
+
+                <tr>
+                    <td>CCS</td>
+                    <td>intermediario</td>
+                    <td>Experiencia con flexbox, grid e animaciones</td>
+
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimiento de scripts del lado de clientes para interacciones</td>
+
+                </tr>
+            </tbody>
+
+
+        </table>
+
+
+
+    </section>
+    <footer>
+        <p>Derechos reservados a Eduardo Ventura</p>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Tienes un proyecto en mente? Entra en contacto</p>
+            
+            </address>
+            <form action="">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="nombre" name="Email" required><br>
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="Telefono" name="telefono" required><br>
+
+                <label for="asunto">Asunto</label>
+                <select type="asunto" id="asunto" >
+                <option value="compra">Compra</option>
+                <option value="dudas">Dudas</option>
+                <option value="otro">otro</option>
+                </select>
+
+                <br>
+
+                <label for="mensaje"> Mensaje</label>
+                <textarea name="mensaje" cols="20" rows="5" required></textarea>
+                
+                <input type="checkbox" id="inscripcion" name="inscripcion">
+                <label for="inscripcion">Desea recibir mi newsleter? Click aqui</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensaje">
+
+            </form>
+        </section>
+    </footer>
+</body>
+
+
+</html>
